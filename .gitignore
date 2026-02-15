@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Environment (never commit secrets)
+.env
+.env.local
+.env.*.local
+
+# Temp / generated
+temp/
+*-player-script.js
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
